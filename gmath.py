@@ -12,7 +12,7 @@ def normalize(vector):
 def dot_product(a, b):
     result = 0
     for i in range(3):
-        result += a[i] * b[i]
+        result += (a[i] * b[i])
     return result
 
 #Calculate the surface normal for the triangle whose first
